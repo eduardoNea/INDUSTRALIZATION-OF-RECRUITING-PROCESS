@@ -1,0 +1,8 @@
+{
+  "name": "solucion01",
+  "private": true,
+  "dependencies": {
+    "html5shiv": "~3.7.3",
+    "modernizr": "~2.8.1"
+  }
+}
