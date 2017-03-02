@@ -1,54 +1,60 @@
 extends layouts/_default.jade
 block content
- 
-    
- 
-    head
-        meta(charset="uft-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1")
-    
-        content(class="container col-md-12 col-xs-12 col-lg-12")
-            nav(class="navbar navbar-default") 
-                    p Brand
-                div(class="col-md-3")
 
-        div(class="col-md-1")
-        div(class="col-md-1")  
-        div(class="btn-group")
-            button(class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown")
-                i(class="img-rounded")
-                span (class="caret")
-            ul
-                li 
-                    a(href="#") action1 
-        div(class="row")
-        div(class="row text-center")
-        div(class="col-md-12 container-fluid")
-            h1 title
-        div(class="col-md-12 container-fluid")
-            h2 component title
-        content(class="content")
-            div(class="row")
-                div(class="col-md-6 col-lg-6 col-xs-6")
-                    p label 1
-                div(class="col-md-6 col-lg-6 col-xs-6")
-                    button(class="btn btn-default")
-                        p
-                            button1
-            div(class="row")
-                div(class="col-md-6 col-lg-6 col-xs-6")
-                    p 
-                        label_1
-                    input(type="text", class="form-control", placeholder="Default")
-                    
-            div(class="row")
-                div(clss="col-md-6 col-lg-6 col-xs-6")
-                    p input1
-                input(type="text" class="form-control"  placeholder="Default")
-            div(class="row col-md-6" id="slider")
-    div(class="navbar navbar-default navbar-fixed-bottom")
+	head
+
+		
+		link(href="../assets/css/Flat-UI-master/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet")
+		
+	
+		link(href="../assets/css/Flat-UI-master/dist/css/flat-ui.min.css" rel="stylesheet")
+	
+		content(class="container col-md-12 col-xs-12 col-lg-12")
+			nav(class="navbar navbar-default")
+					h3 Brand
+				div(class="col-md-3")
+
+				div(class="col-md-1")
+				div(class="btn-group")
+					button(class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown")
+					span(class="caret")
+						i(class="img-rounded") 
+
+							ul
+								li
+									a(href="#") action1
+
+									a(href="#") action2
+						
+				div(class="col-md-1")
+		div(class="row")
+		div(class="row text-center")
+		div(class="col-md-12 container-fluid")
+			h1 title
+		div(class="col-md-12 container-fluid")
+			h2 component title
+		content(class="content")
+			div(class="row")
+				div(class="col-md-6 col-lg-6 col-xs-6")
+					p label 1
+				div(class="col-md-6 col-lg-6 col-xs-6")
+					button(class="btn btn-default")
+						p
+							button1
+			div(class="row")
+				div(class="col-md-6 col-lg-6 col-xs-6")
+					p
+						label_1
+					input(type="text", class="form-control", placeholder="Default")
+					
+			div(class="row")
+				div(clss="col-md-6 col-lg-6 col-xs-6")
+					p input1
+				input(type="text" class="form-control" placeholder="Default")
+			div(class="row col-md-6" id="slider")
+	div(class="navbar navbar-default navbar-fixed-bottom")
 
 
-                
-                    
+				
+					
 

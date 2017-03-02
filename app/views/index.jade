@@ -2,22 +2,22 @@ extends layouts/_default.jade
 block content
 
 	head
-		
+		link(href="../assets/css/Flat-UI-master/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet")
 
-		div(class="")
+		link(href="../assets/css/Flat-UI-master/dist/css/flat-ui.min.css" rel="stylesheet")
 
-			h1
-				Dashboard
-			ul
-				li
-					a(href="Atoms.html") atomos
-				li
-					a(href="Organisms_page.html") organisms
-				li
-					a(href="LayOuts_page.html") pages
+		div(class="" id="dash")
 
-				li 
-					a(href="hola") hola
+			h3 Dashboard
+
+			ul(class="nav flex-column")
+				li
+					a(class="nav-item" href="Atoms.html") Atoms
+				li
+					a(class="nav-item" href="Organisms_page.html") Organisms
+				li
+					a(class="nav-item" href="LayOuts_page.html") Pages
+				
 
 						
 

@@ -2,14 +2,20 @@ extends layouts/_default.jade
 block content
 
 	head
+		//loading bootstrap
+		link(href="../assets/css/Flat-UI-master/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet")
+		//loading flat-ui
+		link(href="../assets/css/Flat-UI-master/dist/css/flat-ui.min.css" rel="stylesheet")
 
-		table
-			p Enlace
-				tr
-					td
-						a(href="Assets00X.html") Assets
+		h1 Organisms
 
-				tr
-					td
-						a(href="Assets00X.html") Assets
+		div(class="list-group")
+					a(class="list-group-item list-group-item-action" href="") Default Button
+					a(class="list-group-item list-group-item-action" href="") Info Button
+					a(class="list-group-item list-group-item-action" href="") Danger Button
+					a(class="list-group-item list-group-item-action" href="hola") Disabled Button
+					a(class="list-group-item list-group-item-action" href="") Label
+
 	
+
+
